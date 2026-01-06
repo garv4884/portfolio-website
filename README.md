@@ -1,47 +1,142 @@
-# What is this ?
-This is a portfolio template that you can use to showcase your work, especially if it's comprised of projects that should be shown in a very visual way.
+# 🎮 Portfolio Website – Garv Chopra
 
-Looking for a game developer job, I needed a portfolio to present my work to recruiters. I found a lot of custom made portfolios, but no easy to use template unless I used Wordpress. Which was overkill to me because a static HTML/JS website would do fine.
+This repository contains the source code for my personal **portfolio website**, built to showcase my work as a **Unity / Game Developer with a strong focus on VR, AR, and XR technologies**.
 
-So i created my own using VueJS, keeping in mind that I wanted it to be easily customisable so other people can use this as a base to make their own. It's very simple, static, fast and responsive.
+The website highlights my projects, technical skills, and experience in building immersive, real-time interactive applications.
 
-For a real world use case, check my portfolio: https://scheefer.me
+---
 
+## 🚀 Live Website
+🔗 https://portfolio-garv.vercel.app  
+*(Custom domain coming soon)*
 
-# How to use
+---
 
-1. Install
+## 🧠 About the Portfolio
+This portfolio is designed for:
+- Recruiters and hiring managers
+- Game studios and XR companies
+- Internship and full-time Unity / XR roles
 
-    - Fork or duplicate the repository
-    - npm install
-    - npm run serve
-    - If any issue with serve, please read this: https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported For Windows Powershell, you can fix with `$env:NODE_OPTIONS = '--openssl-legacy-provider'` then `npm run serve`
+It focuses on **technical depth, real-world projects, and clean presentation**, rather than flashy visuals.
 
-2. Customize
-* For the content
-    - Except for the projects pages, everything is static HTML that you can edit directly in the views and components files
-    - For the projects pages, the page is dynamically populated at runtime using data stored in Typescript files (data/GameProjectsData.ts and data/OtherProjectsData.ts). Make the changes directly in these .ts files
-    - Static files (images, icons, downloadables,..) should be placed in /public folder.
-    - Make the necessary changes in the .env file (this is mostly the site metadata). You need to "npm run serve" again when updating this file.
+---
 
-* For the style
-    - The basic colors can be edited in the css/variables.less file.
-    - The rest of the CSS can be edited, if need be, directly inside each view and component.
-    - If you place custom CSS in your projects HTML data (that will be displayed in an overlay dialog), you must add the definition for this CSS in the css/projects.less file
+## 🛠️ Tech Stack
+- **Vue.js 2** (Vue CLI)
+- **TypeScript**
+- **Vue Router**
+- **LESS** for styling
+- **Vercel** for deployment
 
-* Additional info & optimizations
-    - Images will be loaded on-demand when you switch tabs. It means if you have big images or animated gifs, you may want to preload them so the user sees them faster when they change tabs. To do this, you can call Helpers.preloadImages in app.vue to preload heavy images.
+---
 
-3. Deploy
+## 📂 Project Structure
+```
 
-    - npm run build
-    - copy the content of the "dist" folder (created by "npm run build") to the publish location.
-    - Check this example if you want to deploy to GitHub pages or some other major static content host: https://cli.vuejs.org/guide/deployment.html#github-pages
+├── public/          # Static assets
+├── src/
+│   ├── components/  # Reusable Vue components
+│   ├── views/       # Page-level components
+│   ├── router/      # Vue Router configuration
+│   ├── data/        # Project and content data
+│   ├── css/         # Global styles
+│   ├── App.vue
+│   └── main.ts
+├── .env.example     # Environment variable template
+├── package.json
+└── README.md
 
+````
 
-# License
+---
 
-This is GNU LGPL, check the LICENSE file.
+## ✨ Features
+- SPA architecture with Vue Router (history mode)
+- Responsive design for desktop and mobile
+- Dedicated pages for:
+  - Game Projects
+  - XR / AR / VR Projects
+  - Resume
+  - About & Contact
+- SEO-ready meta tags
+- Fast static deployment on Vercel
 
-Please consider keeping the link to this repository at the bottom of your portfolio, so other people can find and use this template too. Of course it's not mandatory though.
-"# portfolio-website" 
+---
+
+## 🧪 Local Development
+```bash
+npm install
+npm run serve
+````
+
+The app will run at:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 📦 Production Build
+
+```bash
+npm run build
+```
+
+Build output will be generated in the `dist/` directory.
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file (not committed to Git):
+
+```env
+VUE_APP_TITLE=Garv Chopra | Unity & XR Developer
+VUE_APP_DESCRIPTION=Portfolio of Garv Chopra – Unity, VR, AR, XR Developer
+VUE_APP_OGDESCRIPTION=Unity / XR / VR Developer Portfolio
+VUE_APP_PRODUCTION_URL=https://your-project-name.vercel.app
+```
+
+> ⚠️ Environment variables must also be added manually in **Vercel Dashboard → Project Settings → Environment Variables**.
+
+---
+
+## ☁️ Deployment
+
+This project is deployed using **Vercel** as a static site.
+
+Deployment steps:
+
+1. Push code to GitHub
+2. Import repository in Vercel
+3. Set build command: `npm run build`
+4. Set output directory: `dist`
+5. Add environment variables
+6. Deploy 🚀
+
+---
+
+## 📈 Future Improvements
+
+* Route-based dynamic SEO meta tags
+* Project detail pages with media previews
+* Lighthouse performance optimization
+* Custom domain setup
+* Blog / devlog section
+
+---
+
+## 👤 Author
+
+**Garv Chopra**
+Unity | Game Development | VR | AR | XR
+
+📧 Email: *[your-email@example.com](mailto:your-email@example.com)*
+🔗 GitHub: [https://github.com/garv4884](https://github.com/garv4884)
+🔗 LinkedIn: *(add when ready)*
+
+---
+
+> This portfolio is actively maintained and updated with new projects and improvements.

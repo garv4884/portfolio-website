@@ -1,7 +1,7 @@
 <template>
   <div class="about-row">
     <div class="about-main">
-      <h1 class="title">Garv Chopra</h1>
+      <h1 class="title">Hi👋 I'm Garv Chopra.</h1>
       <h2 class="title2">Game Developer & XR Engineer | Unity & VR Systems</h2>
       <div class="about-text">
         <div>

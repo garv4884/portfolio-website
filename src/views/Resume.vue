@@ -15,7 +15,7 @@
 
           <div>
             <div class="job-title">VR Simulation Developer Intern <span>- Volga Infosys</span></div>
-            <div class="job-date">March 2025 – Present</div>
+            <div class="job-date">March 2025 – October 2025</div>
             <div class="job-desc">
               Developed immersive VR simulations using Unity 3D and OpenXR for enterprise training modules.<br>
               Improved realism by 30% using physics-based interactions.

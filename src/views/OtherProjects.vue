@@ -13,7 +13,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import experienceData from "@/data/OtherProjectsData.ts"; // Points to your new file
+import experienceData from "@/data/OtherProjectsData"; // Points to your new file
 
 export default Vue.extend({
   name: "Experience",

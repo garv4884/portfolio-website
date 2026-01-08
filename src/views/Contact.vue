@@ -8,10 +8,7 @@
     </div>
 
     <ul>
-      <li>
-        <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="https://gchopra-portfolio.com" target="_blank">https://gchopra-portfolio.com</a>
-      </li>
+      
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:gchopra_be23@thapar.edu" target="_blank">gchopra_be23@thapar.edu</a>
@@ -36,6 +33,7 @@
 ul {
   list-style: none;
   padding-inline-start: 0px;
+  margin-bottom: 115px;
 }
 
 li {

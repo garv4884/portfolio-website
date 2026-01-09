@@ -3,24 +3,45 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Favicon -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
+    <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    
+
+    <!-- Primary SEO -->
     <title><%= VUE_APP_TITLE %></title>
     <meta name="description" content="<%= VUE_APP_DESCRIPTION %>" />
+
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="<%= VUE_APP_TITLE %>" />
     <meta property="og:description" content="<%= VUE_APP_OGDESCRIPTION %>" />
     <meta property="og:url" content="<%= VUE_APP_PRODUCTION_URL %>" />
-    <meta property="og:image" content="<%= VUE_APP_PRODUCTION_URL %>/img/avatar-og.png" />
+    <meta property="og:image" content="<%= VUE_APP_PRODUCTION_URL %>/image.png" />
 
+    <!-- Twitter (optional but recommended) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="<%= VUE_APP_TITLE %>" />
+    <meta name="twitter:description" content="<%= VUE_APP_OGDESCRIPTION %>" />
+    <meta name="twitter:image" content="<%= VUE_APP_PRODUCTION_URL %>/image.png" />
   </head>
+
   <body>
     <noscript>
-      <strong>Sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <h1>Garv Chopra – Unity & XR Developer</h1>
+      <p>
+        This portfolio showcases projects in Unity, game development, XR (AR/VR),
+        multiplayer systems, and serious games developed during internships and independent work.
+      </p>
+      <strong>
+        This website requires JavaScript to function properly. Please enable JavaScript to continue.
+      </strong>
     </noscript>
+
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

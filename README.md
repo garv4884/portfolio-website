@@ -133,9 +133,9 @@ Deployment steps:
 **Garv Chopra**
 Unity | Game Development | VR | AR | XR
 
-📧 Email: *[your-email@example.com](mailto:your-email@example.com)*
+📧 Email: *[chopragarv0@gmail.com](mailto:chopragarv0@gmail.com)*
 🔗 GitHub: [https://github.com/garv4884](https://github.com/garv4884)
-🔗 LinkedIn: *(add when ready)*
+🔗 LinkedIn: [https://www.linkedin.com/in/garv-chopra-5673a7302/](https://www.linkedin.com/in/garv-chopra-5673a7302/)
 
 ---
 

@@ -7,7 +7,7 @@ The website highlights my projects, technical skills, and experience in building
 ---
 
 ## 🚀 Live Website
-🔗 https://portfolio-garv.vercel.app  
+🔗 https://portfolio-garv-chopra.vercel.app  
 *(Custom domain coming soon)*
 
 ---

@@ -113,11 +113,11 @@ export default Vue.extend({
   padding: 15px;
   font-weight: normal;
   text-transform: normal;
-  font-size: 0.9em;
+  font-size: 0.95em;
   /* letter-spacing: 0.8px; */
   /* font-style: oblique; */
   /* font-weight:bold; */
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family:  system-ui, -apple-system, sans-serif;
   font-weight: 500;
   letter-spacing: 0.4px;
   /* margin-bottom:20px; */

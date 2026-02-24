@@ -2,87 +2,117 @@
   <div class="resume-row">
     <div class="resume-main">
       <h1 class="title">Resume</h1>
+
       <div class="resume-text">
         <div class="paragraph">
-          I'm <strong>Garv Chopra</strong>, an aspiring Game Developer and AR/VR specialist skilled in Unity 3D, C#, Blender, and Flutter.<br />
-          I focus on creating immersive simulations, engaging gameplay, and multiplayer experiences.<br />
-          Currently pursuing a Bachelor of Engineering in Computer Engineering at Thapar Institute of Engineering and Technology with a CGPA of 8.44.<br />
-          Feel free to <router-link to="/contact">contact me</router-link> about opportunities or projects.
+          I'm <strong>Garv Chopra</strong>, a Unity Game Developer and XR enthusiast specializing in immersive simulations, multiplayer systems, and interactive AR/VR experiences.<br />
+          I build scalable gameplay systems using Unity, C#, OpenXR, and backend integrations.<br />
+          Currently pursuing a Bachelor of Engineering in Computer Engineering at Thapar Institute of Engineering and Technology (CGPA: 8.44/10).<br />
+          Feel free to <router-link to="/contact">contact me</router-link> for internships or collaborative projects.
         </div>
 
         <div class="full-content">
+
+          <!-- Work Experience -->
           <h2>Work Experience</h2>
 
           <div>
-            <div class="job-title">VR Simulation Developer Intern <span>- Volga Infosys</span></div>
+            <div class="job-title">
+              VR Simulation Developer Intern <span>- Volga Infosys</span>
+            </div>
             <div class="job-date">March 2025 – October 2025</div>
             <div class="job-desc">
-              Developed immersive VR simulations using Unity 3D and OpenXR for enterprise training modules.<br>
-              Improved realism by 30% using physics-based interactions.
+              Built enterprise-grade VR training simulations using Unity and OpenXR.<br>
+              Designed physics-based interaction systems improving realism and user engagement by 30%.<br>
+              Optimized performance for smooth real-time rendering in VR environments.
             </div>
           </div>
 
           <div>
-            <div class="job-title">ELC Summer Intern <span>- Thapar University</span></div>
+            <div class="job-title">
+              ELC Summer Intern <span>- Thapar University</span>
+            </div>
             <div class="job-date">June 2024 – July 2024</div>
             <div class="job-desc">
-              Designed Unity-based cognitive games interfaced with EEG systems for ADHD and ASD detection.<br>
-              Improved focus retention and data accuracy by 40%.
+              Developed Unity-based cognitive games integrated with EEG systems for ADHD and ASD analysis.<br>
+              Improved focus retention tracking and increased data accuracy by 40%.<br>
+              Collaborated with researchers to design interactive evaluation modules.
             </div>
           </div>
 
           <div>
-            <div class="job-title">Technical Executive <span>- ISTE Thapar Chapter</span></div>
+            <div class="job-title">
+              Technical Executive <span>- ISTE Thapar Chapter</span>
+            </div>
             <div class="job-date">August 2024 – Present</div>
             <div class="job-desc">
-              Developed educational AR/VR applications using Unity and Blender.
+              Built educational AR/VR applications and conducted technical workshops on Unity and immersive technologies.
             </div>
           </div>
 
-          <h2>Skills</h2>
-          <div class="skill-set">
-            <h3>Game Development & VR/AR</h3>
-            <SkillRate name="Unity 3D" :rate="5" />
-            <SkillRate name="C#" :rate="5" />
-            <SkillRate name="Flutter" :rate="4" />
-            <SkillRate name="Blender" :rate="4" />
-            <SkillRate name="OpenXR" :rate="3" />
-          </div>
-          <div class="skill-set">
-            <h3>Other Skills</h3>
-            <SkillRate name="Python" :rate="4" />
-            <SkillRate name="Machine Learning" :rate="3" />
-            <SkillRate name="FastAPI" :rate="3" />
-          </div>
-          <div style="clear:both"></div>
+          <!-- Skills -->
+          <h2>Technical Skills</h2>
 
+          <div class="skill-set">
+            <h3>Game Development & XR</h3>
+            <div class="skill-tags">
+              <span>Unity (C#)</span>
+              <span>Photon Multiplayer</span>
+              <span>PlayFab</span>
+              <span>OpenXR</span>
+              <span>AR Foundation</span>
+              <span>Vuforia</span>
+              <span>WebGL Deployment</span>
+              <span>Shader Programming</span>
+              <span>Procedural Generation</span>
+              <span>AI Pathfinding</span>
+            </div>
+          </div>
+
+          <div class="skill-set">
+            <h3>Backend & AI</h3>
+            <div class="skill-tags">
+              <span>Python</span>
+              <span>FastAPI</span>
+              <span>Flask</span>
+              <span>OpenCV</span>
+              <span>Machine Learning</span>
+            </div>
+          </div>
+
+          <div class="skill-set">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+              <span>Blender</span>
+              <span>Git</span>
+              <span>Firebase</span>
+              <span>VS Code</span>
+            </div>
+          </div>
+
+          <!-- Education -->
           <h2>Education</h2>
           <div>
-            <div class="edu-title">Thapar Institute of Engineering and Technology, Patiala</div>
+            <div class="edu-title">
+              Thapar Institute of Engineering and Technology, Patiala
+            </div>
             <div class="job-date">July 2023 - June 2027</div>
             <div class="edu-details">
-              Bachelor of Engineering in Computer Engineering, CGPA: 8.44/10
+              Bachelor of Engineering in Computer Engineering<br>
+              CGPA: 8.44 / 10
             </div>
           </div>
 
+          <!-- Languages -->
           <h2>Languages</h2>
-          <div>
-            <div class="lang-title">English, Hindi, Punjabi</div>
-            <div class="lang-details">Fluent in all of them with strong communication skills.</div>
+          <div class="lang-details">
+            English, Hindi, Punjabi (Fluent)
           </div>
 
-          <h2>Interests</h2>
-          <div>
-            <h3>VR/AR Development</h3>
-            <div class="interest-details">Developing immersive and interactive experiences for medical and tourism applications.</div>
-            <h3>Game Development</h3>
-            <div class="interest-details">Creating engaging multiplayer and cognitive games.</div>
-            <h3>Machine Learning</h3>
-            <div class="interest-details">Exploring applications in document analysis and medical simulations.</div>
-          </div>
         </div>
       </div>
     </div>
+
     <div class="resume-photo">
       <img src="img/avatar.png" alt="Photo of Garv Chopra" />
     </div>
@@ -102,6 +132,21 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background: rgba(16, 217, 243, 0.15);
+  color: #10d9f3;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid rgba(16, 217, 243, 0.3);
+}
   
 .resume-row {
   display: flex;

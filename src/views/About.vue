@@ -6,7 +6,9 @@
       <div class="about-text">
         <div>
           I'm <strong>Garv Chopra</strong>, a driven Game Developer and AR/VR Specialist focused on creating immersive, intelligent, and impactful digital experiences.<br/>
-          Skilled in Unity 3D, C#, Blender, and Flutter, I develop interactive simulations, serious games, and real-time multiplayer platforms for medical, educational, and entertainment domains.
+        </div>
+        <div style="margin-top: 20px;">
+          Skilled in Unity 3D, C#, Blender, and Flutter, I develop interactive simulations for medical, educational, and entertainment domains.
         </div>
         <div style="margin-top: 20px;">
           My work covers <router-link to="/game-projects">multiplayer FPS games</router-link>,

@@ -58,6 +58,11 @@ export default [
         <img class="pc-screenshot" src="img/projects/project-4-icon.png" alt="VITALS VR Screenshot" />
         <img class="pc-screenshot" src="img/projects/project-4-icon2.png" alt="VITALS VR Screenshot" />
     </div>
+    <div class="paragraph">
+        <div class="notice">
+            View the live demo of the VR gameplay at this <a href="https://youtu.be/WxPbSelgTWY?si=HzvrkJzdvNcQ7JHr" target="_blank">YouTube</a> Link.
+        </div>
+    </div>
     `, "#e80fb7"),
 
     new ProjectData("project-3", "V.I.A. – Virtual Interview Assistant (VR)", "img/projects/project-3-icon.png", `
@@ -116,6 +121,11 @@ export default [
     <div class="paragraph">
         <div class="notice">
             Demonstrates serious-game design, cognitive engagement mechanics, and Unity development for health and research applications.
+        </div>
+    </div>
+    <div class="paragraph">
+        <div class="notice">
+            Play the live demo at <a href="https://hci-web-gl.vercel.app" target="_blank">fps-ctf.vercel.app</a>.
         </div>
     </div>
     <div class="paragraph center">

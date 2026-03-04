@@ -54,14 +54,14 @@ export default [
     <div class="paragraph">
         Awarded <strong>2nd Place</strong> after live jury evaluation and technical pitch.
     </div>
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/project-4-icon.png" alt="VITALS VR Screenshot" />
-        <img class="pc-screenshot" src="img/projects/project-4-icon2.png" alt="VITALS VR Screenshot" />
-    </div>
     <div class="paragraph">
         <div class="notice">
             View the live demo of the VR gameplay at this <a href="https://youtu.be/WxPbSelgTWY?si=HzvrkJzdvNcQ7JHr" target="_blank">YouTube</a> Link.
         </div>
+    </div>
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/project-4-icon.png" alt="VITALS VR Screenshot" />
+        <img class="pc-screenshot" src="img/projects/project-4-icon2.png" alt="VITALS VR Screenshot" />
     </div>
     `, "#e80fb7"),
 

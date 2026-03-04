@@ -125,7 +125,7 @@ export default [
     </div>
     <div class="paragraph">
         <div class="notice">
-            Play the live demo at <a href="https://hci-web-gl.vercel.app" target="_blank">fps-ctf.vercel.app</a>.
+            Play the live demo at <a href="https://hci-web-gl.vercel.app" target="_blank">hci-web-gl.vercel.app</a>.
         </div>
     </div>
     <div class="paragraph center">

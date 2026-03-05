@@ -46,7 +46,8 @@
             </div>
             <div class="job-date">August 2024 – Present</div>
             <div class="job-desc">
-              Built educational AR/VR applications and conducted technical workshops on Unity and immersive technologies.
+              Built Unity-based tools, AR/VR demos, and educational applications for the chapter.<br>
+              Conducted technical workshops on Unity and gameplay programming for students.
             </div>
           </div>
 
@@ -77,18 +78,18 @@
           <h2>Technical Skills</h2>
 
           <div class="skill-set">
-            <h3>Game Development & XR</h3>
+            <h3>Game Development &amp; Systems</h3>
             <div class="skill-tags">
               <span>Unity (C#)</span>
+              <span>Gameplay Programming</span>
               <span>Photon Multiplayer</span>
               <span>PlayFab</span>
-              <span>OpenXR</span>
-              <span>AR Foundation</span>
-              <span>Vuforia</span>
-              <span>WebGL Deployment</span>
-              <span>Shader Programming</span>
-              <span>Procedural Generation</span>
+              <span>Physics &amp; Interactions</span>
               <span>AI Pathfinding</span>
+              <span>Procedural Generation</span>
+              <span>Shader Programming</span>
+              <span>WebGL Deployment</span>
+              <span>Android (Unity)</span>
             </div>
           </div>
 

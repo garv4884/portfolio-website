@@ -128,4 +128,28 @@ h1.dialog-title {
     max-width: 900px;
   }
 }
+
+.dialog-bottom {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.dialog-close-button {
+  display: inline-block;
+  padding: 8px 28px;
+  background: #222;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 0.9em;
+  font-weight: 600;
+  opacity: 1 !important;
+  cursor: pointer;
+  border: 1.5px solid #555;
+  transition: background 0.2s ease;
+}
+
+.dialog-close-button:hover {
+  background: #444;
+  opacity: 1 !important;
+}
 </style>

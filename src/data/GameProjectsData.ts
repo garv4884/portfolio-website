@@ -82,8 +82,8 @@ export default [
         </div>
     </div>
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/project-3-icon2.png" alt="VITALS VR Screenshot" />
-        <img class="pc-screenshot" src="img/projects/project-3-icon.png" alt="VITALS VR Screenshot" />
+        <img class="pc-screenshot" src="img/projects/project-3-icon2.png" alt="V.I.A. VR Screenshot" />
+        <img class="pc-screenshot" src="img/projects/project-3-icon.png" alt="V.I.A. VR Screenshot" />
     </div>
     `, "#5d5d5dff", false, true, "", "https://youtu.be/EcUWAxo20l8?si=CDIlTCGYfjZR61ej"),
 
@@ -139,7 +139,7 @@ export default [
         false, true, "https://hci-web-gl.vercel.app"
     ),
 
-    new ProjectData("project-5", "AI Maze Game with Intelligent Enemy Pathfinding", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "AI Maze — Multi-Agent Pathfinding", "img/projects/project-5-icon.png", `
     <div class="paragraph">
         Developed an AI-driven maze game featuring multiple enemy agents with distinct behaviors inspired by classic Pac-Man AI.
     </div>

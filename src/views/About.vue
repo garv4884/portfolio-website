@@ -2,21 +2,21 @@
   <div class="about-row">
     <div class="about-main">
       <h1 class="title">Hi👋 I'm Garv Chopra.</h1>
-      <h2 class="title2">Game Developer & XR Engineer | Unity & VR Systems</h2>
+      <h2 class="title2">Game Developer | Unity, C# &amp; Multiplayer Systems</h2>
       <div class="about-text">
         <div>
-          I'm <strong>Garv Chopra</strong>, a driven Game Developer and AR/VR Specialist focused on creating immersive, intelligent, and impactful digital experiences.<br/>
+          I'm a <strong>Unity Game Developer</strong> specialising in gameplay programming, multiplayer architecture, and game systems design — building experiences that are fast, fun, and technically solid.<br/>
         </div>
         <div style="margin-top: 20px;">
-          Skilled in Unity 3D, C#, Blender, and Flutter, I develop interactive simulations for medical, educational, and entertainment domains.
+          Proficient in <strong>Unity 3D</strong>, <strong>C#</strong>, <strong>Photon PUN</strong>, and <strong>AI / pathfinding systems</strong>, I focus on writing clean game logic, scalable multiplayer code, and performant real-time gameplay.
         </div>
         <div style="margin-top: 20px;">
-          My work covers <router-link to="/game-projects">multiplayer FPS games</router-link>,
-          <router-link to="/experience">VR training simulations</router-link>, and
-          contributions to <router-link to="/resume">award-winning hackathon projects</router-link> and startup internships.
+          My work includes a <router-link to="/game-projects">competitive multiplayer FPS</router-link>,
+          an <router-link to="/game-projects">infinite runner shipped on the Play Store</router-link>, and
+          <router-link to="/resume">award-winning hackathon projects</router-link> — all built around solid gameplay feel and robust systems.
         </div>
         <div style="margin-top: 20px;">
-          I'm currently open to opportunities in game development, VR/AR R&D, education technology, and interactive healthcare applications.<br/>
+          Currently seeking <strong>Game Developer</strong> roles — gameplay programming, multiplayer, or general Unity development.<br/>
           Reach out at <a href="mailto:chopragarv0@gmail.com">chopragarv0@gmail.com</a> or <router-link to="/contact">the contact page</router-link>.
         </div>
       </div>

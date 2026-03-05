@@ -1,8 +1,8 @@
 import ProjectData from '@/data/ProjectData'
 
 export default [
-    new ProjectData("project-1", "FPS Multiplayer CTF Portal Demo", "img/projects/project-1-icon.png", 
-    `
+    new ProjectData("project-1", "FPS Multiplayer CTF Portal Demo", "img/projects/project-1-icon.png",
+        `
     <div class="paragraph">
         <strong>FPS Multiplayer CTF Portal Demo</strong> is a competitive first-person Capture-The-Flag game designed for large-scale technical events and hackathons.
     </div>
@@ -22,7 +22,7 @@ export default [
             Play the live demo at <a href="https://fps-ctf.vercel.app" target="_blank">fps-ctf.vercel.app</a>.
         </div>
     </div>
-    `, "#23bd69", false,true),
+    `, "#23bd69", false, true, "https://fps-ctf.vercel.app"),
 
     new ProjectData("project-2", "CubeVerse Infinite Cube Runner", "img/projects/project-2-icon.png", `
     <div class="paragraph">
@@ -39,7 +39,7 @@ export default [
             <img src="img/projects/play-store-logo.png" alt="Play Store badge" />
         </a>
     </div>
-    `, "#5a78af"),
+    `, "#5a78af", false, false, "", "", "https://play.google.com/store/apps/details?id=com.GC_Games.CubeVerse"),
 
     new ProjectData("project-4", "VITALS – AI-Assisted VR Surgical Training", "img/projects/project-4-icon.png", `
     <div class="paragraph">
@@ -63,9 +63,9 @@ export default [
         <img class="pc-screenshot" src="img/projects/project-4-icon.png" alt="VITALS VR Screenshot" />
         <img class="pc-screenshot" src="img/projects/project-4-icon2.png" alt="VITALS VR Screenshot" />
     </div>
-    `, "#e80fb7"),
+    `, "#e80fb7", false, false, "", "https://youtu.be/WxPbSelgTWY?si=HzvrkJzdvNcQ7JHr"),
 
-    new ProjectData("project-3", "V.I.A. – Virtual Interview Assistant (VR)", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "V.I.A. – Virtual Interview Assistant ", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         <strong>V.I.A. (Virtual Interview Assistant)</strong> is an immersive VR interview simulation platform designed to replicate real-world technical and HR interview scenarios.
     </div>
@@ -85,13 +85,13 @@ export default [
         <img class="pc-screenshot" src="img/projects/project-3-icon2.png" alt="VITALS VR Screenshot" />
         <img class="pc-screenshot" src="img/projects/project-3-icon.png" alt="VITALS VR Screenshot" />
     </div>
-    `, "#5d5d5dff",false,true),
+    `, "#5d5d5dff", false, true, "", "https://youtu.be/EcUWAxo20l8?si=CDIlTCGYfjZR61ej"),
 
     new ProjectData(
-    "project-elc-eeg",
-    "HCI Application for EEG detection for ADHD/Autism (ELC Summer Internship)",
-    "img/projects/project-6-icon.png",
-    `
+        "project-elc-eeg",
+        "EEG Cognitive Game Suite — ELC Summer Internship",
+        "img/projects/project-6-icon.png",
+        `
     <div class="paragraph">
         <strong>EEG Attention Training Game Suite</strong> is a set of purpose-built Unity games developed during my Summer Internship at ELC to help maintain attention levels in children undergoing EEG-based detection for ADHD and Autism.
     </div>
@@ -135,8 +135,8 @@ export default [
         <img class="pc-screenshot" src="img/projects/project-6-icon4.jpeg" alt="project-6-icon4.jpeg" />
     </div>
     `,
-    "#4c9aff",
-    false,true
+        "#4c9aff",
+        false, true, "https://hci-web-gl.vercel.app"
     ),
 
     new ProjectData("project-5", "AI Maze Game with Intelligent Enemy Pathfinding", "img/projects/project-5-icon.png", `

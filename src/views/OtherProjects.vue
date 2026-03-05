@@ -3,7 +3,7 @@
     <h1 class="title">Experience & Research</h1>
 
     <div class="intro-text">
-      A deep dive into my professional journey, academic research, and technical contributions in AR/VR and AI.
+      Internships, research projects, and competition work that shaped my skills as a developer.
     </div>
     
     <ProjectsList v-bind:projects="experienceItems" />

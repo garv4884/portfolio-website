@@ -3,10 +3,10 @@
     <h1 class="title">Projects</h1>
 
     <div style="margin-bottom: 10px;">
-      The following are some stuff I've made or heavily contributed to.
+      A selection of games and tools I've built — from shipped mobile titles to multiplayer systems and AI-driven prototypes.
     </div>
 
-    <ProjectsList v-bind:projects="projects" />
+    <ProjectsList v-bind:projects="projects" :showDemoButton="true" />
 
     
   </div>

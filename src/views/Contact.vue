@@ -11,6 +11,10 @@
       
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
+        <a href="mailto:chopragarv0@gmail.com" target="_blank">chopragarv0@gmail.com</a>
+      </li>
+      <li>
+        <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:gchopra_be23@thapar.edu" target="_blank">gchopra_be23@thapar.edu</a>
       </li>
       <li>

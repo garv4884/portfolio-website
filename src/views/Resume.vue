@@ -5,10 +5,10 @@
 
       <div class="resume-text">
         <div class="paragraph">
-          I'm <strong>Garv Chopra</strong>, a Unity Game Developer and XR enthusiast specializing in immersive simulations, multiplayer systems, and interactive AR/VR experiences.<br />
-          I build scalable gameplay systems using Unity, C#, OpenXR, and backend integrations.<br />
+          I'm <strong>Garv Chopra</strong>, a Unity Game Developer specialising in gameplay programming, multiplayer systems, and game logic design.<br />
+          I write clean, scalable C# code for real-time gameplay — from AI pathfinding and physics interactions to networked multiplayer architectures.<br />
           Currently pursuing a Bachelor of Engineering in Computer Engineering at Thapar Institute of Engineering and Technology (CGPA: 8.44/10).<br />
-          Feel free to <router-link to="/contact">contact me</router-link> for internships or collaborative projects.
+          Open to Game Developer roles — feel free to <router-link to="/contact">reach out</router-link>.
         </div>
 
         <div class="full-content">
@@ -50,6 +50,29 @@
             </div>
           </div>
 
+          <!-- Awards & Competitions -->
+          <h2>Awards &amp; Competitions</h2>
+
+          <div>
+            <div class="job-title">
+              2nd Place &mdash; Hack4Help 2025 <span>- Israeli–Indian Hackathon</span>
+            </div>
+            <div class="job-date">2025</div>
+            <div class="job-desc">
+              Built VITALS, an AI-assisted VR surgical training system with real-time procedural guidance and AI mentorship. Awarded 2nd place after live jury evaluation and technical pitch.
+            </div>
+          </div>
+
+          <div>
+            <div class="job-title">
+              National Finalist &mdash; Smart India Hackathon 2025 <span>- Government of India</span>
+            </div>
+            <div class="job-date">2025</div>
+            <div class="job-desc">
+              Developed an AR/VR-powered digital tourism platform for Jharkhand featuring 360° VR tours, AR guides, and AI-driven itineraries. Selected as a national finalist.
+            </div>
+          </div>
+
           <!-- Skills -->
           <h2>Technical Skills</h2>
 
@@ -70,13 +93,17 @@
           </div>
 
           <div class="skill-set">
-            <h3>Backend & AI</h3>
+            <h3>Backend &amp; AI</h3>
             <div class="skill-tags">
               <span>Python</span>
               <span>FastAPI</span>
               <span>Flask</span>
               <span>OpenCV</span>
               <span>Machine Learning</span>
+              <span>LangChain</span>
+              <span>OpenAI / GPT</span>
+              <span>ConvAI</span>
+              <span>NLP Pipelines</span>
             </div>
           </div>
 

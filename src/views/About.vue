@@ -56,7 +56,16 @@
   max-width: 700px;
   
 }
+.about-text a {
+  color: #c7b2ff;
+  text-decoration: underline;
+  font-weight: 550;
+}
 
+.about-text a:hover {
+  color: #d5cef3;
+  text-decoration: underline;
+}
 .about-photo {
   flex: 0 0 220px;
   display: flex;

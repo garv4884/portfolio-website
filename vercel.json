@@ -1,18 +1,18 @@
 {
   "headers": [
     {
-      "source": "/sitemap.xml",
+      "source": "/sitemap.txt",
       "headers": [
         {
           "key": "Content-Type",
-          "value": "application/xml"
+          "value": "text/plain"
         }
       ]
     }
   ],
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
+      "source": "/((?!sitemap\\.txt|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
       "destination": "/index.html"
     }
   ]

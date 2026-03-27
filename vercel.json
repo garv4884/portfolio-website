@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/sitemap.txt",
+      "destination": "/sitemap.txt"
+    },
+    {
       "source": "/((?!sitemap\\.txt|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
       "destination": "/index.html"
     }

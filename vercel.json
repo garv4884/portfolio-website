@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/sitemap.xml",
+      "source": "/sitemaps.xml",
       "headers": [
         {
           "key": "Content-Type",
@@ -12,7 +12,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
+      "source": "/((?!sitemaps\\.xml|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
       "destination": "/index.html"
     }
   ]

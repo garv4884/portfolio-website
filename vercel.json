@@ -1,15 +1,4 @@
 {
-  "headers": [
-    {
-      "source": "/sitemap.txt",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/plain"
-        }
-      ]
-    }
-  ],
   "rewrites": [
     {
       "source": "/((?!sitemap\\.txt|robots\\.txt|favicon\\.ico|img/|css/|js/).*)",
